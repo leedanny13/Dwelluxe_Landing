@@ -11,6 +11,12 @@ npm install
 npm run dev
 ```
 
+Create a production build that outputs the static site to `build/`:
+
+```bash
+npm run build
+```
+
 For a quick syntax check of the JavaScript entry point, run:
 
 ```bash

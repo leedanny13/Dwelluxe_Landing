@@ -5,10 +5,7 @@
   "description": "A polished static landing page template for Dwelluxe.",
   "scripts": {
     "dev": "python3 -m http.server 5173",
-    "build": "react-scripts build",
-    "check": "node --check main.js && node --check scripts/build.js && node --check vendor/react-scripts-shim/bin/react-scripts.js"
-  },
-  "devDependencies": {
-    "react-scripts": "file:vendor/react-scripts-shim"
+    "build": "node scripts/build.js",
+    "check": "node --check main.js && node --check scripts/build.js"
   }
 }
